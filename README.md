@@ -65,6 +65,7 @@ Established a secure SSH connection from a Windows workstation to an Ubuntu Linu
 ## DHCP Lease Renewal
 
 ### DHCP Lease Assignment Analysis
+During the DHCP lease renewal process, the active Remote Desktop (RDP) session was temporarily interrupted as the virtual machine released and obtained a new IP lease. Observed the automatic reconnection process and verified successful restoration of remote access, demonstrating an understanding of how DHCP events can impact remote administration sessions.
 
 ![DHCP release & renew results](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DHCP%20release%20&%20renew%20results.png?raw=true)
 
@@ -118,37 +119,13 @@ Remote Desktop Troubleshooting
 
 Investigated a Remote Desktop session interruption and reviewed reconnection attempts. Demonstrated understanding of remote access troubleshooting and network connectivity validation.
 
-⸻
-
-Captura 6 – DHCP Automation Script
-
-PowerShell Network Automation
-
-Created and executed a batch script to automate DHCP release and renewal tasks. Used PowerShell to validate network configuration changes and confirm successful IP assignment.
-
-⸻
-
-Captura 7 – DHCP Renewal Verification
-
-IP Configuration Validation
-
-Verified successful DHCP lease renewal using ipconfig commands. Confirmed IPv4 addressing, subnet mask assignment, gateway configuration, and DNS suffix registration.
-
-⸻
-
-Captura 8 – Script Creation
+## Script Creation
 
 Administrative Script Development
 
 Developed a reusable network troubleshooting script for DHCP operations. Demonstrated basic scripting skills to streamline common support and network administration tasks.
 
-⸻
-
-Para el README del laboratorio
-
-Puedes cerrar con algo así:
-
-Skills Demonstrated: Wireshark, PowerShell, DHCP, DNS, TCP/IP, UDP, RDP Troubleshooting, Network Packet Analysis, Windows Administration, Network Diagnostics, Root Cause Analysis.
+## Skills Demonstrated: Wireshark, PowerShell, DHCP, DNS, TCP/IP, UDP, RDP Troubleshooting, Network Packet Analysis, Windows Administration, Network Diagnostics, Root Cause Analysis.
 
 
 
