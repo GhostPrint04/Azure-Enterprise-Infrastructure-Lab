@@ -7,13 +7,26 @@ Designed and administered a cloud-based Azure environment consisting of Windows 
 
 ## Technologies Used
 
-| Category | Technologies |
-|-----------|-------------|
-| Cloud Infrastructure | [Microsoft Azure](https://azure.microsoft.com), Azure Resource Groups, Virtual Machines, Virtual Networks |
-| Operating Systems | Windows Server, Windows 11, Ubuntu Linux |
-| Networking | [TCP/IP](https://learn.microsoft.com), [DNS](https://learn.microsoft.com), [DHCP](https://learn.microsoft.com), NSGs |
-| Remote Access | [RDP](https://learn.microsoft.com), [SSH](https://www.openssh.com) |
-| Administration & Troubleshooting | [PowerShell](https://learn.microsoft.com/powershell), [Wireshark](https://www.wireshark.org) |
+    A --> B[Resource Group]
+    B --> C[Virtual Network]
+
+    C --> D[Windows VM]
+    C --> E[Ubuntu VM]
+
+    D --> F[RDP]
+    E --> G[SSH]
+
+    C --> H[DNS]
+    C --> I[DHCP]
+    C --> J[NSGs]
+
+    F --> K[Troubleshooting]
+    G --> K
+    H --> K
+    I --> K
+
+    K --> L[Wireshark Analysis]
+    K --> M[PowerShell Administration]
 
 Key Activities
 
