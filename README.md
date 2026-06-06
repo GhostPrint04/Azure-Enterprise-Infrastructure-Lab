@@ -65,7 +65,7 @@ Established a secure SSH connection from a Windows workstation to an Ubuntu Linu
 ## DHCP Lease Renewal
 
 ### DHCP Lease Assignment Analysis
-During the DHCP lease renewal process, the active Remote Desktop (RDP) session was temporarily interrupted as the virtual machine released and obtained a new IP lease. Observed the automatic reconnection process and verified successful restoration of remote access, demonstrating an understanding of how DHCP events can impact remote administration sessions.
+During the DHCP lease renewal process, the active Remote Desktop (RDP) session was temporarily interrupted as the virtual machine released and renewed its network configuration. Observed the automatic reconnection process after the DHCP lease was reassigned and verified successful restoration of remote access. This exercise demonstrated practical troubleshooting of network-related connectivity interruptions, validated the relationship between DHCP operations and Remote Desktop services, and reinforced core system administration skills such as remote server management, network configuration validation, and infrastructure troubleshooting within a Microsoft Azure environment.
 
 ![DHCP release & renew results](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DHCP%20release%20&%20renew%20results.png?raw=true)
 
@@ -92,7 +92,7 @@ This lab demonstrates hands-on experience with DHCP lease renewal, PowerShell ad
 
 ![TCP 3389 release & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/TCP%203389%20-%20release%20&%20renew.png?raw=true)
 
-Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP) session using Wireshark. Observed ACK packets confirming successful communication between endpoints and RST packets generated during a DHCP lease renewal, causing the RDP session to reconnect. This analysis demonstrated how TCP manages session acknowledgment, connection termination, and connectivity recovery during network changes.
+Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP) session using Wireshark. Observed ACK (ACKNOWLEDGE) packets confirming successful communication between endpoints and RST (RESET) packets generated during a DHCP lease renewal, causing the RDP session to reconnect. This analysis demonstrated how TCP manages session acknowledgment, connection termination, and connectivity recovery during network changes.
 
 ## DNS Query Responses
 
