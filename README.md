@@ -62,10 +62,17 @@ This is a represetantion of the actual Status of both virtual Machine's running 
 
 Established a secure SSH connection from a Windows workstation to an Ubuntu Linux virtual machine using PowerShell. Authenticated successfully with the username and password configured during the Azure virtual machine deployment. Executed administrative commands including whoami, hostname, touch, ls, id, and uname -a to validate user access, system identity, file operations, and operating system information. Simultaneously captured SSHv2 traffic in Wireshark to verify encrypted communication between the client and Linux server.
 
-### DHCP Release & renew
+### DHCP Lease Renewal
+
+## DHCP Lease Assignment Analysis
 
 ![DHCP release & renew results](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DHCP%20release%20&%20renew%20results.png?raw=true)
 
+Performed IP release and renewal operations using PowerShell while capturing DHCP traffic in Wireshark. Observed the DHCP Request and DHCP ACK process responsible for assigning network configuration to the client.
+
+- DHCP Renewal Verification
+- IP Configuration Validation
+Verified successful DHCP lease renewal using ipconfig commands. Confirmed IPv4 addressing, subnet mask assignment, gateway configuration, and DNS suffix registration.
 ## TCP Traffic Analysis
 ### TCP Session Analysis (Port 3389)
 
