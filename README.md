@@ -50,6 +50,8 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 ![Linux & Windows VM's running](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Linux%20&%20Windows%20VM's%20running.png?raw=true)
 
+This is a represetantion of the actual Status of both virtual Machine's running successfully, made it on Microsoft Azure.
+
 ## TCP Traffic Analysis
 
 ### TCP Session Analysis (Port 3389)
@@ -65,7 +67,8 @@ Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP)
 
 Monitored DNS queries and responses in Wireshark to validate name resolution processes. Analyzed request/response behavior and identified how client systems locate resources across the network.
 
-Captura 3 – DNS Packet Inspection
+
+DNS Packet Inspection
 
 DNS Traffic Inspection
 
