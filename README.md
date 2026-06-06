@@ -7,7 +7,7 @@ Designed and administered a cloud-based Azure environment consisting of Windows 
 
 Technologies Used
 
-* Microsoft Azure | Windows Serve | Ubuntu Linux | PowerShell | Wireshark | RDP | SSH | DHCP | DNS | TCP/IP |Network Security Groups (NSGs)
+* Microsoft Azure | Windows Serve | Ubuntu Linux | PowerShell | Wireshark | RDP | SSH | DHCP | DNS | TCP/IP | Network Security Groups (NSGs)
 
 Key Activities
 
