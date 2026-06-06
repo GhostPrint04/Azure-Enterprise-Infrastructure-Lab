@@ -7,11 +7,7 @@ Designed and administered a cloud-based Azure environment consisting of Windows 
 
 Technologies Used
 
-* Microsoft Azure
-* Windows Server
-* Ubuntu Linux
-* PowerShell
-* Wireshark
+* Microsoft Azure * Windows Server * Ubuntu Linux * PowerShell * Wireshark
 * RDP
 * SSH
 * DHCP
