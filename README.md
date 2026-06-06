@@ -51,9 +51,10 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP) session using Wireshark. Observed ACK packets confirming successful communication between endpoints and RST packets generated during a DHCP lease renewal, causing the RDP session to reconnect. This analysis demonstrated how TCP manages session acknowledgment, connection termination, and connectivity recovery during network changes.
 
-Captura 2 – DNS Query Responses
+## DNS Query Responses
 
-DNS Resolution Verification
+### DNS Resolution Verification
+
 
 Monitored DNS queries and responses in Wireshark to validate name resolution processes. Analyzed request/response behavior and identified how client systems locate resources across the network.
 
