@@ -11,8 +11,8 @@ Designed and administered a cloud-based Azure environment consisting of Windows 
                             Resource Group
                                    |
                             Virtual Network
-                             /           \
-                            /             \
+                           /           \
+                           /             \
                      Windows VM       Ubuntu VM
                          |                |
                         RDP              SSH
