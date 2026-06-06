@@ -111,9 +111,7 @@ Monitored DNS queries and responses in Wireshark to validate name resolution pro
 
 Captured DNS traffic on UDP port 53 and reviewed query details, response records, and hostname resolution activity. Confirmed proper communication between client and DNS services.
 
-⸻
-
-Captura 5 – RDP Connectivity Issue
+RDP Connectivity Issue
 
 Remote Desktop Troubleshooting
 
