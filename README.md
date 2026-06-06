@@ -52,6 +52,15 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 This is a represetantion of the actual Status of both virtual Machine's running successfully, made it on Microsoft Azure.
 
+## ICMPv4 Traffic Filtering with Azure NSG
+
+A continuous ping was initiated from the Windows VM to the Ubuntu VM while monitoring traffic in Wireshark. An inbound Deny ICMPv4 rule was created in the Azure Network Security Group (NSG) with a priority of 290, ensuring the rule was evaluated before broader allow rules. Once applied, ICMPv4 traffic was successfully blocked, resulting in request timeouts and the absence of Echo Replies in Wireshark. After removing the rule, connectivity was restored and ICMPv4 Echo Replies resumed, confirming successful traffic filtering and restoration.
+
+Skills Demonstrated: Azure NSG Management, ICMPv4 Analysis, Wireshark Packet Capture, Network Security, Connectivity Troubleshooting.
+
+![ICMP traffic via the NSG for window-vm](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/ICMP%20traffic%20via%20the%20NSG%20for%20window-vm.png?raw=true)
+
+
 ## Secure Shell (SSH) Connectivity
 ### Secure Remote Administration
 ![SSH connection and network traffic analysis](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/SSH%20connection%20and%20Network%20Traffic%20Analysis.png?raw=true)
