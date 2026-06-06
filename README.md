@@ -68,9 +68,9 @@ Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP)
 Monitored DNS queries and responses in Wireshark to validate name resolution processes. Analyzed request/response behavior and identified how client systems locate resources across the network.
 
 
-DNS Packet Inspection
+## DNS Packet Inspection
 
-DNS Traffic Inspection
+### DNS Traffic Inspection
 
 ![UDP & TCP results & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/UDP%20&%20TCP%20results%20-%20release%20&%20renew.png?raw=true)
 
