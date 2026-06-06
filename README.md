@@ -98,7 +98,6 @@ Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP)
 
 Monitored DNS queries and responses in Wireshark to validate name resolution processes. Analyzed request/response behavior and identified how client systems locate resources across the network.
 
-
 ## DNS Packet Inspection
 
 ### DNS Traffic Inspection
@@ -120,6 +119,5 @@ Administrative Script Development
 Developed a reusable network troubleshooting script for DHCP operations. Demonstrated basic scripting skills to streamline common support and network administration tasks.
 
 ## Skills Demonstrated: Wireshark, PowerShell, DHCP, DNS, TCP/IP, UDP, RDP Troubleshooting, Network Packet Analysis, Windows Administration, Network Diagnostics, Root Cause Analysis.
-
 
 
