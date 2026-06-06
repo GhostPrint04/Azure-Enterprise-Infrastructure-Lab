@@ -56,6 +56,9 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 This is a represetantion of the actual Status of both virtual Machine's running successfully, made it on Microsoft Azure.
 
+## Secure Shell (SSH) Connectivity
+![SSH connection and network traffic analysis](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/SSH%20connection%20and%20Network%20Traffic%20Analysis.png?raw=true)
+
 ## TCP Traffic Analysis
 
 ### TCP Session Analysis (Port 3389)
