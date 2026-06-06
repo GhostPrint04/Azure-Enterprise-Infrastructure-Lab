@@ -55,10 +55,9 @@ Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP)
 
 ### DNS Resolution Verification
 
+![DNS Results - release & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DNS%20results%20-%20release%20&%20renew.png?raw=true)
 
 Monitored DNS queries and responses in Wireshark to validate name resolution processes. Analyzed request/response behavior and identified how client systems locate resources across the network.
-
-⸻
 
 Captura 3 – DNS Packet Inspection
 
