@@ -37,7 +37,9 @@ Key Activities
 
 Deployed and managed Windows and Linux virtual machines within Microsoft Azure. Configured cloud resources, validated system availability, and established the foundation required for remote administration, network analysis, and infrastructure troubleshooting activities.
 
+Creating VM's
 ![Creating window-vm](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20windows-vm.png?raw=true)
+
 ## SSH Connectivity
 
 ## DHCP Lease Renewal Analysis
