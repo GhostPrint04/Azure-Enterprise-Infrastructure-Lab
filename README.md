@@ -39,6 +39,7 @@ Deployed and managed Windows and Linux virtual machines within Microsoft Azure. 
 
 ### Creating VM's
 ![Creating window-vm](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20windows-vm.png?raw=true)
+![Creating linux-vm] (https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20linux-vm.png?raw=true)
 
 ## SSH Connectivity
 
