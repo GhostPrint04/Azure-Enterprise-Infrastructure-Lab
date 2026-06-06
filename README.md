@@ -45,11 +45,11 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 ## TCP Traffic Analysis
 
-TCP Session Analysis (Port 3389)
+### TCP Session Analysis (Port 3389)
+![TCP 3389 release & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/TCP%203389%20-%20release%20&%20renew.png?raw=true)
 
 Captured and analyzed TCP traffic associated with Remote Desktop Protocol (RDP). Verified successful packet exchange, reviewed TCP flags (ACK/RST), and validated connectivity between client and remote host using Wireshark.
 
-⸻
 
 Captura 2 – DNS Query Responses
 
