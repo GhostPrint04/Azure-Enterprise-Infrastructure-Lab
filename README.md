@@ -5,7 +5,7 @@ Overview
 
 Designed and administered a cloud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows. Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
 
-## Azure Enterprise Infrastructure Lab
+Azure Enterprise Infrastructure Lab
                 │
         Resource Group
                 │
@@ -19,7 +19,7 @@ Designed and administered a cloud-based Azure environment consisting of Windows 
                 │
               NSGs
                 │
-   PowerShell & Wireshark
+     PowerShell & Wireshark
    
 ## Technologies Used
 
