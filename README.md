@@ -37,4 +37,5 @@ Key Activities
 
 Deployed and managed Windows and Linux virtual machines within Microsoft Azure. Configured cloud resources, validated system availability, and established the foundation required for remote administration, network analysis, and infrastructure troubleshooting activities.
 
+<img width="1313" height="592" alt="Creando linux-vm" src="https://github.com/user-attachments/assets/37933173-a1cb-4a3d-8c9a-a22709a05e94" />
 
