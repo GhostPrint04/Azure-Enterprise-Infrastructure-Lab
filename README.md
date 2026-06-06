@@ -5,9 +5,15 @@ Overview
 
 Designed and administered a cloud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows. Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
 
-Technologies Used
+## Technologies Used
 
-* Microsoft Azure | Windows Serve | Ubuntu Linux | PowerShell | Wireshark | RDP | SSH | DHCP | DNS | TCP/IP | Network Security Groups (NSGs)
+| Category | Technologies |
+|-----------|-------------|
+| Cloud Infrastructure | [Microsoft Azure](https://azure.microsoft.com), Azure Resource Groups, Virtual Machines, Virtual Networks |
+| Operating Systems | Windows Server, Windows 11, Ubuntu Linux |
+| Networking | [TCP/IP](https://learn.microsoft.com), [DNS](https://learn.microsoft.com), [DHCP](https://learn.microsoft.com), NSGs |
+| Remote Access | [RDP](https://learn.microsoft.com), [SSH](https://www.openssh.com) |
+| Administration & Troubleshooting | [PowerShell](https://learn.microsoft.com/powershell), [Wireshark](https://www.wireshark.org) |
 
 Key Activities
 
