@@ -31,6 +31,9 @@ Key Activities
 
 ## Compute Infrastructure – Virtual Machines
 
+![Linux-vm private ip, public & running status](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/LInux-vm%20private%20ip.%20public%20ip%20&%20running%20status.png?raw=true
+)
+
 ### Resource Group Components
 
 ![Resource Group Components](Resource%20group%20component.png)
