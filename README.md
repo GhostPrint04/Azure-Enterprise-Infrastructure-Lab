@@ -31,7 +31,7 @@ Key Activities
 
 ## Compute Infrastructure – Virtual Machines
 
-### Resource Group Components
+### Resource Group Configuration
 
 ![Resource Group Components](Resource%20group%20component.png)
 
