@@ -159,16 +159,4 @@ Puedes cerrar con algo así:
 Skills Demonstrated: Wireshark, PowerShell, DHCP, DNS, TCP/IP, UDP, RDP Troubleshooting, Network Packet Analysis, Windows Administration, Network Diagnostics, Root Cause Analysis.
 
 
-## SSH Connectivity
-
-## DHCP Lease Renewal Analysis
-
-## DNS Resolution Analysis
-
-## TCP Session Analysis
-
-## RDP Troubleshooting
-
-## Video Demonstrations
-
 
