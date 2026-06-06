@@ -68,7 +68,7 @@ Established a secure SSH connection from a Windows workstation to an Ubuntu Linu
 
 ![DHCP release & renew results](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DHCP%20release%20&%20renew%20results.png?raw=true)
 
-Performed ipconfig /release and ipconfig /renew operations from PowerShell while capturing DHCP traffic in Wireshark. To streamline testing, the commands were saved in a custom batch file stored in a folder created at C:\ProgramData, allowing repeated execution and easier observation of DHCP traffic during packet analysis.
+Created a custom batch file (dhcp.bat) in C:\ProgramData containing ipconfig /release and ipconfig /renew commands. Used PowerShell to verify and execute the script, generating DHCP lease activity while capturing packets in Wireshark. Analyzed the DHCP Discover, Offer, Request, and ACK process and confirmed successful assignment of IP addressing, subnet mask, default gateway, and DNS configuration. This lab demonstrates PowerShell administration, basic automation, packet analysis, and network troubleshooting in Azure.
 
 Verified the complete DHCP lease process, including:
 
