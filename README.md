@@ -60,7 +60,7 @@ This is a represetantion of the actual Status of both virtual Machine's running 
 ### Secure Remote Administration
 ![SSH connection and network traffic analysis](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/SSH%20connection%20and%20Network%20Traffic%20Analysis.png?raw=true)
 
-Established a secure SSH connection from a Windows workstation to an Ubuntu Linux virtual machine using PowerShell. Authenticated successfully with the username and password configured during the Azure virtual machine deployment. Executed administrative commands including whoami, hostname, touch, ls, id, and uname -a to validate user access, system identity, file operations, and operating system information. Simultaneously captured SSHv2 traffic in Wireshark to verify encrypted communication between the client and Linux server.
+Established a secure SSH connection from a Windows workstation to an Ubuntu Linux virtual machine using PowerShell. Authenticated successfully with the username and password configured during the Azure virtual machine deployment. Executed administrative commands including "whoami", "hostname", "touch", "ls", "id", and "uname -a" to validate user access, system identity, file operations, and operating system information. Simultaneously captured SSHv2 traffic in Wireshark to verify encrypted communication between the client and Linux server.
 
 ## DHCP Lease Renewal
 
@@ -109,14 +109,6 @@ Monitored DNS queries and responses in Wireshark to validate name resolution pro
 ![UDP & TCP results & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/UDP%20&%20TCP%20results%20-%20release%20&%20renew.png?raw=true)
 
 Captured DNS traffic on UDP port 53 and reviewed query details, response records, and hostname resolution activity. Confirmed proper communication between client and DNS services.
-
-⸻
-
-Captura 4 – DHCP Lease Renewal
-
-DHCP Lease Assignment Analysis
-
-Performed IP release and renewal operations using PowerShell while capturing DHCP traffic in Wireshark. Observed the DHCP Request and DHCP ACK process responsible for assigning network configuration to the client.
 
 ⸻
 
