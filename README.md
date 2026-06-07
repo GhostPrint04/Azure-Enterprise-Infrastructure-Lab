@@ -58,7 +58,7 @@ A continuous ping was initiated from the Windows VM to the Ubuntu VM while monit
 
 Skills Demonstrated: Azure NSG Management, ICMPv4 Analysis, Wireshark Packet Capture, Network Security, Connectivity Troubleshooting.
 
-![ICMP traffic via the NSG for window-vm](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/ICMP%20traffic%20via%20the%20NSG%20for%20window-vm.png?raw=true)
+![ICMP disable & enabled traffic NSG](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/ICMP%20disable%20&%20enabled%20traffic%20NSG.png?raw=true)
 
 
 ## Secure Shell (SSH) Connectivity
