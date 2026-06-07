@@ -40,7 +40,7 @@ Deployed and managed Windows and Linux virtual machines within Microsoft Azure. 
 ![Creating window-vm2](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20window-vm2.png?raw=true)
 ### - Linux VM Deployment
 ![Creating linux-vm2](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20linux-vm2.png?raw=true)
-
+![VM's](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/VM's.png?raw=true)
 Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operating-system enterprise environment. Windows 11 was used for remote administration and user-based tasks, while Ubuntu Server provided a Linux platform for SSH connectivity, command-line administration, and network troubleshooting exercises.
 
 ## Virtual Machine's
