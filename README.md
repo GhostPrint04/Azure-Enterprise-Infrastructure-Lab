@@ -6,12 +6,12 @@ Internal documentation for the deployment, configuration, and troubleshooting of
 Designed and administered a doud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows, Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
 
 | Component | Details |
-|-----------|---------|
-| Platform Microsoft Azure |
-| Resource Group RG-Network-Lab |
-| Windows VM window-vm2 — Windows 11 — IP: 10.0.0.5 |
-| Linux VM linux-vm2 — Ubuntu Server 22.04 LTS — IP: 10.0.0.4 |
-| Network Shared Virtual Network with NSG-controlled subnets |
+|----------|---------|
+| Platform | Microsoft Azure |
+| Resource | Group RG-Network-Lab |
+| Windows | VM window-vm2 — Windows 11 — IP: 10.0.0.5 |
+| Linux | VM linux-vm2 — Ubuntu Server 22.04 LTS — IP: 10.0.0.4 |
+| Network | Shared Virtual Network with NSG-controlled subnets |
 
 ## Technologies Used
 
