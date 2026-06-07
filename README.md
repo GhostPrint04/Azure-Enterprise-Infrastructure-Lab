@@ -3,7 +3,7 @@ Internal documentation for the deployment, configuration, and troubleshooting of
 
 ## Environment Summary
 
-Designed and administered a doud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows, Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
+Deployed and managed a mixed Windows and Linux environment on Microsoft Azure, supporting remote access, network connectivity, and endpoint configuration across both platforms. Diagnosed and resolved infrastructure issues including DHCP lease conflicts, RDP session failures and network access control problems, identifying root causes through live packet analysis with Wireshark and implementing fixes via PowerShell automation. Documented all procedures and findings to support repeatable troubleshooting workflows.
 
 | Component | Details |
 |----------|---------|
