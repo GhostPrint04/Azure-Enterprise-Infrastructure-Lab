@@ -1,7 +1,7 @@
 # Azure Enterprise Infrastructure Lab
 Internal documentation for the deployment, configuration, and troubleshooting of a cloudbased Windows and Linux infrastructure hosted on Microsoft Azure. Covers VM provisioning, virtual networking, remote access, and network traffic validation.
 
-## Overview
+## Environment Summary
 
 Designed and administered a doud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows, Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
 
