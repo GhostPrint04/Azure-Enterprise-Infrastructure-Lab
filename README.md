@@ -1,7 +1,7 @@
 # Azure Enterprise Infrastructure Lab
 Enterprise Azure infrastructure lab featuring Windows and Linux virtual machines, virtual networking, DHCP, DNS, RDP, SSH, NSGs, packet analysis with Wireshark, and PowerShell-based troubleshooting in a cloud environment.
 
-Overview
+## Overview
 
 Designed and administered a cloud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows. Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
    
