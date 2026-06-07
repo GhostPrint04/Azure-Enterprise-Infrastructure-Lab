@@ -63,7 +63,7 @@ Skills Demonstrated: Azure NSG Management, ICMPv4 Analysis, Wireshark Packet Cap
 
 ## Secure Shell (SSH) Connectivity
 ### Secure Remote Administration
-![SSH connection and network traffic analysis](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/SSH%20connection%20and%20Network%20Traffic%20Analysis.png?raw=true)
+![SSH connection and network traffic analysis 2](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/SSH%20connection%20and%20Network%20Traffic%20Analysis%202.png?raw=true)
 
 Established a secure SSH connection from a Windows workstation capturing "SSH" traffic from Ubuntu Linux virtual machine to wireshark using PowerShell. Authenticated successfully with the username and password configured during the Azure virtual machine deployment. Executed administrative commands including "whoami", "hostname", "touch", "ls", "id", and "uname -a" to validate user access, system identity, file operations, and operating system information. Simultaneously captured SSHv2 traffic in Wireshark to verify encrypted communication between the client and Linux server.
 
