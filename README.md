@@ -48,7 +48,7 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 ![Linux status](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Linux%20status.png?raw=true)
 
-![Linux & Windows VM's running](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Linux%20&%20Windows%20VM's%20running.png?raw=true)
+![Linux & Windows running](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Linux%20&%20window%20running.png?raw=true)
 
 This is a represetantion of the actual Status of both virtual Machine's running successfully, made it on Microsoft Azure.
 
