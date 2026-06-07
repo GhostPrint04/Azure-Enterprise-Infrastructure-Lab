@@ -33,7 +33,7 @@ Deployed and managed Windows and Linux virtual machines within Microsoft Azure. 
 
 ## Virtual Network Configuration
 
-![Virtual network](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Virtual%20network.png?raw=true)
+![Virtual network](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Virtual%20Network.png?raw=true)
 
 ## Creating VM's
 ### - Window 11 VM Deployment
