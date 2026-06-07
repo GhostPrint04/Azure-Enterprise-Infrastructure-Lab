@@ -27,7 +27,7 @@ Key Activities
 
 ### Resource Group Components
 
-![Resource Group Components](Resource%20group%20component.png)
+![Resource Group](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Resource%20Group.png?raw=true)
 
 Deployed and managed Windows and Linux virtual machines within Microsoft Azure. Configured cloud resources, validated system availability, and established the foundation required for remote administration, network analysis, and infrastructure troubleshooting activities.
 
