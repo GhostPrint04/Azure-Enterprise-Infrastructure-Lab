@@ -43,13 +43,13 @@ Provisioned Windows 11 and Ubuntu Server VMs within a shared Resource Group. Con
 
 ![Virtual network](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Virtual%20Network.png?raw=true)
 
-## Creating VM's
-### - Window 11 VM Deployment
+## VM Provisioning
+### Window 11
 ![Creating window-vm2](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20window-vm2.png?raw=true)
-### - Linux VM Deployment
+### Ubuntu Linux
 ![Creating linux-vm2](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Creating%20linux-vm2.png?raw=true)
 ![VM's](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Deployment%20VM's.png?raw=true)
-Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operating-system enterprise environment. Windows 11 was used for remote administration and user-based tasks, while Ubuntu Server provided a Linux platform for SSH connectivity, command-line administration, and network troubleshooting exercises.
+Windows 11 and Ubuntu Server 22.04 LTS deployed to support a mixed-OS environment. Windows 11 handles remote desktop administration and user-facing tasks. Ubuntu Server handles SSH-based administration, command-line operations, and network diagnostics.
 
 ## Virtual Machine's
 ### Status
@@ -58,7 +58,7 @@ Windows 11 and Ubuntu Server 22.04 LTS were selected to simulate a mixed-operati
 
 ![Linux & Windows running](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Linux%20&%20window%20running.png?raw=true)
 
-This is a represetantion of the actual Status of both virtual Machine's running successfully, made it on Microsoft Azure.
+Both VMs confirmed running in Microsoft Azure. Remote connectivity validated via RDP (Windows) and SSH (Ubuntu).
 
 ## ICMPv4 Traffic Filtering with Azure NSG
 
@@ -78,11 +78,11 @@ Established a secure SSH connection from a Windows workstation capturing "SSH" t
 ## DHCP Lease Renewal
 
 ### DHCP Lease Assignment Analysis
-During the DHCP lease renewal process, the active Remote Desktop (RDP) session was temporarily interrupted as the virtual machine released and renewed its network configuration. Observed the automatic reconnection process after the DHCP lease was reassigned and verified successful restoration of remote access. This exercise demonstrated practical troubleshooting of network-related connectivity interruptions, validated the relationship between DHCP operations and Remote Desktop services, and reinforced core system administration skills such as remote server management, network configuration validation, and infrastructure troubleshooting within a Microsoft Azure environment.
+During the DHCP lease renewal process, the active Remote Desktop (RDP) session was temporarily interrupted as the virtual machine released and renewed its network configuration. Observed the automatic reconnection process after the DHCP lease was reassigned and verified successful restoration of remote access. RDP session dropped during the release phase and automatically restored after lease renewal. Root cause confirmed: DHCP release invalidates active TCP sessions. Behavior documented and expected in Azure VM environments.
 
 ![DHCP release & renew results](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DHCP%20release%20&%20renew%20results.png?raw=true)
 
-Created a custom batch file (dhcp.bat) in C:\ProgramData containing ipconfig /release and ipconfig /renew commands. Used PowerShell to verify the script's presence and execute it, generating DHCP lease activity while capturing packets in Wireshark. Analyzed the DHCP Discover, Offer, Request, and ACK (ACKNOWLEDGE) process and confirmed successful assignment of IP addressing, subnet mask, default gateway, and DNS configuration. This lab demonstrates PowerShell administration, basic automation, packet analysis and network troubleshooting in Azure.
+Created a custom batch file (dhcp.bat) in C:\ProgramData containing ipconfig /release and ipconfig /renew commands. Used PowerShell to verify the script's presence and execute it, generating DHCP lease activity while capturing packets in Wireshark. Analyzed the DHCP Discover, Offer, Request, and ACK (ACKNOWLEDGE) process and confirmed successful assignment of IP addressing, subnet mask, default gateway, and DNS configuration. 
 
 Verified the complete DHCP lease process, including:
 
@@ -98,14 +98,12 @@ Confirmed successful network configuration assignment, including:
 * Default Gateway
 * DNS Suffix
 
-This lab demonstrates hands-on experience with DHCP lease renewal, PowerShell administration, packet analysis using Wireshark, and network troubleshooting in an Azure virtual machine environment.
-
 ## TCP Traffic Analysis
 ### TCP Session Analysis (Port 3389)
 
 ![TCP 3389 release & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/TCP%203389%20-%20release%20&%20renew.png?raw=true)
 
-Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP) session using Wireshark. Observed ACK (ACKNOWLEDGE) packets confirming successful communication between endpoints and RST (RESET) packets generated during a DHCP lease renewal, causing the RDP session to reconnect. This analysis demonstrated how TCP manages session acknowledgment, connection termination, and connectivity recovery during network changes.
+Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP) session using Wireshark. Observed ACK (ACKNOWLEDGE) packets confirming successful communication between endpoints and RST (RESET) packets generated during a DHCP lease renewal, causing the RDP session to reconnect. Root cause confirmed: DHCP release invalidates existing TCP sessions. Session automatically re-established after new IP assignment — expected behavior in Azure VM environments.
 
 ## DNS Query Responses
 
@@ -113,7 +111,7 @@ Captured and analyzed TCP traffic associated with an active Remote Desktop (RDP)
 
 ![DNS Results - release & renew](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/DNS%20results%20-%20release%20&%20renew.png?raw=true)
 
-Monitored DNS queries and responses in Wireshark to validate name resolution processes. Analyzed request/response behavior and identified how client systems locate resources across the network.
+Root cause confirmed: DHCP release invalidates existing TCP sessions. Session automatically re-established after new IP assignment — expected behavior in Azure VM environments.
 
 ## DNS Packet Inspection
 
@@ -132,8 +130,10 @@ Investigated a Remote Desktop session interruption and reviewed reconnection att
 
 Administrative Script Development
 
-Developed a reusable network troubleshooting script for DHCP operations. Demonstrated basic scripting skills to streamline common support and network administration tasks.
+Developed a reusable network troubleshooting script for DHCP operations. Developed and deployed dhcp.bat to automate IP release and renewal on Windows endpoints. Verified execution via PowerShell. Reusable for DHCP-related diagnostics across the environment.
 
-## Skills Demonstrated: Wireshark, PowerShell, DHCP, DNS, TCP/IP, UDP, RDP Troubleshooting, Network Packet Analysis, Windows Administration, Network Diagnostics, Root Cause Analysis.
+## Skills
+
+`Azure VM Administration` `Virtual Networking` `NSG Configuration` `SSH` `RDP` `DHCP Troubleshooting` `DNS Validation` `TCP/IP Analysis` `Wireshark` `PowerShell` `Windows Administration` `Linux Administration` `Packet Capture` `Root Cause Analysis` `Remote Access Management`
 
 
