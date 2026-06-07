@@ -130,7 +130,7 @@ Investigated a Remote Desktop session interruption and reviewed reconnection att
 
 Administrative Script Development
 
-Developed a reusable network troubleshooting script for DHCP operations. Developed and deployed dhcp.bat to automate IP release and renewal on Windows endpoints. Verified execution via PowerShell. Reusable for DHCP-related diagnostics across the environment.
+Developed and deployed dhcp.bat to automate IP release and renewal on Windows endpoints. Verified execution via PowerShell. Reusable for DHCP-related diagnostics across the environment.
 
 ## Skills
 
