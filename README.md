@@ -134,6 +134,22 @@ Developed a reusable network troubleshooting script for DHCP operations. Develop
 
 ## Skills
 
-`Azure VM Administration` `Virtual Networking` `NSG Configuration` `SSH` `RDP` `DHCP Troubleshooting` `DNS Validation` `TCP/IP Analysis` `Wireshark` `PowerShell` `Windows Administration` `Linux Administration` `Packet Capture` `Root Cause Analysis` `Remote Access Management`
+**Cloud & Infrastructure**
+`Microsoft Azure` `Virtual Machine Provisioning` `Azure Resource Groups` `Virtual Network Configuration` `Network Security Groups (NSG)` `Subnet Management` `Public & Private IP Management` `Cloud Endpoint Administration`
+
+**Networking & Protocols**
+`TCP/IP` `DHCP` `DNS` `ICMP` `SSH` `RDP` `UDP` `NSG Rule Enforcement` `Network Segmentation` `Packet-Level Traffic Analysis` `Protocol Troubleshooting`
+
+**Operating Systems**
+`Windows 11` `Ubuntu Server 22.04 LTS` `Cross-Platform Administration` `Remote Desktop Administration` `Linux Command Line`
+
+**Security**
+`NSG Inbound/Outbound Rule Management` `SSHv2 Encrypted Communication Validation` `Network Access Control` `Traffic Filtering & Restoration` `Credential Security Verification`
+
+**Tools & Automation**
+`Wireshark` `PowerShell` `Batch Scripting` `ipconfig` `Live Packet Capture` `Diagnostic Automation`
+
+**Troubleshooting & Documentation**
+`Root Cause Analysis` `DHCP Lease Conflict Resolution` `RDP Session Recovery` `TCP Session Analysis` `Repeatable Workflow Documentation`
 
 
