@@ -5,6 +5,8 @@ Internal documentation for the deployment, configuration, and troubleshooting of
 
 Designed and administered a doud-based Azure environment consisting of Windows and Linux virtual machines, virtual networking components, remote management services, and network troubleshooting workflows, Performed system administration tasks, validated network services, analyzed packet captures, and documented troubleshooting procedures using industry-standard tools.
 
+# markdown
+
 Component Details
 Platform Microsoft Azure
 Resource Group RG-Network-Lab
