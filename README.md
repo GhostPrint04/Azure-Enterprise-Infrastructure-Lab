@@ -26,13 +26,12 @@ Deployed and managed a mixed Windows and Linux environment on Microsoft Azure, s
 
 | Key Activities |
 |----------------|
-| Deployed and Configured Windows and Linux Virtual Machines |
-| Managed Network Connectivity and Virtual Network Resources |
-| Performed DHCP Lease Renewal and IP Configuration Validation |
-| Captured and Analyzed DNS, TCP, UDP, SSH, and RDP Traffic Using Wireshark |
-| Validated Remote Connectivity Through SSH and Remote Desktop Protocol |
-| Investigated Connectivity Interruptions and Verified Recovery Procedures |
-| Documented Troubleshooting Processes and Packet-level Analysis |
+| Diagnosed and resolved RDP session failures caused by DHCP lease conflicts — traced root cause to TCP RST packets via Wireshark and restored connectivity through PowerShell automation |
+| Enforced network access controls by configuring NSG inbound deny rules, blocking ICMPv4 traffic and validating rule priority enforcement at the subnet level |
+| Established and validated SSH connectivity from Windows to Ubuntu — confirmed SSHv2 encryption with no plaintext credentials exposed in packet capture |
+| Captured and analyzed live network traffic across ICMP, DHCP, DNS, TCP, and RDP protocols using Wireshark during active infrastructure changes | 
+| Developed and deployed dhcp.bat automation script to streamline DHCP release and renewal diagnostics on Windows endpoints |
+| Documented troubleshooting procedures, packet-level findings, and recovery steps for repeatable IT support workflows| 
 
 ### Resource Group Components
 
