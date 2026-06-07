@@ -23,15 +23,15 @@ Deployed and managed a mixed Windows and Linux environment on Microsoft Azure, s
 | Remote Access | [RDP](https://learn.microsoft.com), [SSH](https://www.openssh.com) |
 | Administration & Troubleshooting | [PowerShell](https://learn.microsoft.com/powershell), [Wireshark](https://www.wireshark.org) |
 
-Key Activities
-
-* Deployed and Configured Windows and Linux Virtual Machines.
-* Managed Network Connectivity and Virtual Network Resources.
-* Performed DHCP Lease Renewal and IP Configuration Validation.
-* Captured and Analyzed DNS, TCP, UDP, SSH, and RDP Traffic Using Wireshark.
-* Validated Remote Connectivity Through SSH and Remote Desktop Protocol.
-* Investigated Connectivity Interruptions and Verified Recovery Procedures.
-* Documented Troubleshooting Processes and Packet-level Analysis.
+| Key Activities |
+|----------------|
+| Deployed and Configured Windows and Linux Virtual Machines |
+| Managed Network Connectivity and Virtual Network Resources |
+| Performed DHCP Lease Renewal and IP Configuration Validation |
+| Captured and Analyzed DNS, TCP, UDP, SSH, and RDP Traffic Using Wireshark |
+| Validated Remote Connectivity Through SSH and Remote Desktop Protocol |
+| Investigated Connectivity Interruptions and Verified Recovery Procedures |
+| Documented Troubleshooting Processes and Packet-level Analysis |
 
 ### Resource Group Components
 
