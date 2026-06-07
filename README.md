@@ -37,7 +37,7 @@ Deployed and managed a mixed Windows and Linux environment on Microsoft Azure, s
 
 ![Resource Group](https://github.com/GhostPrint04/Azure-Interprise-Infraestructure-Lab/blob/main/Resource%20Group.png?raw=true)
 
-Deployed and managed Windows and Linux virtual machines within Microsoft Azure. Configured cloud resources, validated system availability, and established the foundation required for remote administration, network analysis, and infrastructure troubleshooting activities.
+Provisioned Windows 11 and Ubuntu Server VMs within a shared Resource Group. Configured cloud resources, validated system availability, and established remote access for both systems prior to production use.
 
 ## Virtual Network Configuration
 
