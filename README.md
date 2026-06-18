@@ -5,8 +5,6 @@ Internal documentation for the deployment, configuration, and troubleshooting of
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="90" align="center"/>
-
 Internal documentation for the deployment...
 
 ## Environment Summary
