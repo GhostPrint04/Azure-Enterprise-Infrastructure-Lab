@@ -2,7 +2,11 @@
 Internal documentation for the deployment, configuration, and troubleshooting of a cloudbased Windows and Linux infrastructure hosted on Microsoft Azure. Covers VM provisioning, virtual networking, remote access, and network traffic validation.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="100"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="80"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg" width="80"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="70"/>
 </p>
 
 Internal documentation for the deployment...
