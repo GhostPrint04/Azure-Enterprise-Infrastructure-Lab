@@ -1,7 +1,13 @@
 # Azure Enterprise Infrastructure Lab
 Internal documentation for the deployment, configuration, and troubleshooting of a cloudbased Windows and Linux infrastructure hosted on Microsoft Azure. Covers VM provisioning, virtual networking, remote access, and network traffic validation.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" alt="Azure Logo" width="120"/>
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="80" align="right"/>
+
+Internal documentation for the deployment...
 
 ## Environment Summary
 
