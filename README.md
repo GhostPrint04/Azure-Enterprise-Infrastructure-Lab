@@ -1,6 +1,8 @@
 # Azure Enterprise Infrastructure Lab
 Internal documentation for the deployment, configuration, and troubleshooting of a cloudbased Windows and Linux infrastructure hosted on Microsoft Azure. Covers VM provisioning, virtual networking, remote access, and network traffic validation.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" alt="Azure Logo" width="120"/>
+
 ## Environment Summary
 
 Deployed and managed a mixed Windows and Linux environment on Microsoft Azure, supporting remote access, network connectivity, and endpoint configuration across both platforms. Diagnosed and resolved infrastructure issues including DHCP lease conflicts, RDP session failures and network access control problems, identifying root causes through live packet analysis with Wireshark and implementing fixes via PowerShell automation. Documented all procedures and findings to support repeatable troubleshooting workflows.
