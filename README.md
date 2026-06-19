@@ -170,5 +170,5 @@ Developed and deployed dhcp.bat to automate IP release and renewal on Windows en
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="30"/>
 </p>
 
-<p align="center"><sub>Built and documented by GhostPrint04</sub></p>
+<p align="center"><sub>Built and documented by Robert Gomez</sub></p>
 
